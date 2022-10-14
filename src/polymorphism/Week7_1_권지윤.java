@@ -1,3 +1,4 @@
+package polymorphism;
 import java.util.Scanner;
 
 public class Week7_1_권지윤 {

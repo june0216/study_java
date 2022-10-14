@@ -1,3 +1,4 @@
+package polymorphism;
 
 class NoteBook extends Product{//Product를 상속 받는다. 
 

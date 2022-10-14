@@ -1,3 +1,4 @@
+package polymorphism;
 
 class Emergency {
 	public Car emgList[] = new Car[10];//Car 타입의 인스턴스들을 수집할 리스트이다. 

@@ -1,3 +1,4 @@
+package polymorphism;
 
 class Ambulance extends Car{//Car클래스를 상속받는다. 
 	
