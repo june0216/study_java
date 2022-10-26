@@ -1,13 +1,13 @@
 
+
 public class StudentInfomation {
 	private String name;
 	private String id;
 	
-	public StudentInfomation() {} //기본 생성자 
+	public StudentInfomation() {} //기본 생성자이다. 
 	
 	public void display()//학생의 정보를 출력한다. 
 	{
-		System.out.println("NAME		ID");
 		System.out.printf("%s		%s", name, id);
 	}
 	

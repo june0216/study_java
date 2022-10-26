@@ -1,4 +1,4 @@
-
+package Modifier;
 import java.util.Scanner;
 
 public class HW1_4_권지윤 {
@@ -13,7 +13,7 @@ public class HW1_4_권지윤 {
 		
 		System.out.println("How many students are there?");
 		int num = sc.nextInt();//학생수를 사용자에게 입력 받음 
-		StudentScore[] ss = new StudentScore[num];
+		StudentScore ss[] = new StudentScore[num];
 		System.out.println("Input the information.");
 		System.out.println("");//줄간격을 위해 삽입 
 		//각 과목별 합계를 저장하기 위해 각 과목별 전체 합산 점수를 저장할 변수를 선언

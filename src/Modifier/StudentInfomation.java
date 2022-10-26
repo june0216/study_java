@@ -1,4 +1,4 @@
-package HW;
+package Modifier;
 
 public class StudentInfomation {
 	private String name;
@@ -8,7 +8,6 @@ public class StudentInfomation {
 	
 	public void display()//학생의 정보를 출력한다. 
 	{
-		System.out.println("NAME		ID");
 		System.out.printf("%s		%s", name, id);
 	}
 	

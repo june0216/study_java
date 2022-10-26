@@ -1,4 +1,4 @@
-package HW;
+package Modifier;
 
 public class Shape {
 	private int x;
