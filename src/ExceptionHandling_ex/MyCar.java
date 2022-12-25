@@ -1,4 +1,7 @@
+package ExceptionHandling_ex;
+
 import java.awt.*;
+
 import java.awt.event.*;
 import javax.swing.*;
 
@@ -18,8 +21,9 @@ public class MyCar extends JFrame implements ActionListener{
 		Dimension d = tk.getScreenSize();
 		int screenHeight = d.height;//화면의 총 높이의 길이 
 		int screenWidth = d.width;//화면의 총 세로의 길이 
+		this.setSize(500, 350);//프레임의 크기는 다음과 같이 설정한다.
 		setLocation(screenWidth/2 - this.getWidth()/2, screenHeight/2 - this.getHeight()/2);//정중앙에 위치하도록 한다. 
-		this.setSize(500, 350);//프레임의 크기는 다음과 같이 설정한다. 
+		 
 		
 		Car car = new Car();//자동차 판넬 생성(inner class)
 		add(car, "Center");//프레임 위에 올린다. (가운데)
